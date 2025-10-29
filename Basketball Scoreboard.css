@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Digital7';
+    src: url('fonts/digital-7/digital-7.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    background: #022749;
+    margin-bottom: 0;
+}
+
+#score-el-1,
+#score-el-2 {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+    background: black;
+    color: red;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Digital7', sans-serif;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.title {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 0;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+button {
+    background: none;
+    color: aliceblue;
+    border: 1px solid #ccc0c0;
+    width: 50px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 10px 5px;
+    font-size: 20px;
+    font-family: 'Digital7', sans-serif;
+
+}
+
+#reset-btn {
+    width:inherit;
+    background: red;
+    margin-left: 200px;
+    padding: 10px 20px;
+    font-size: 50px;
+    text-align: center;
+}
